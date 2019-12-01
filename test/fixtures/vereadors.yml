@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome_civil: MyString
+  nome_parlamentar: MyString
+  partido: MyString
+  ativo: false
+
+two:
+  nome_civil: MyString
+  nome_parlamentar: MyString
+  partido: MyString
+  ativo: false

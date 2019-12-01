@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    
+  </head>
+
+  <body>
+  	<div class="wrapper">
+            <nav>
+                <span class="green-logo"> Cidadão Alerta </span>
+              <ul>
+                <li><a href="/home/index">Início</a></li>
+                <li><a href="/dashboard/index">Dashboard Interativo</a></li>
+                <li><a href="/download/index">Baixar Dados</a></li>
+
+              </ul>
+            </nav>
+
+    </div>
+           
+    <%= yield %>
+  </body>
+</html>
