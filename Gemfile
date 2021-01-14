@@ -8,7 +8,7 @@ end
 gem 'carrierwave', '~> 0.10.0'
 gem 'mini_magick', '~> 4.3'
 gem 'pg'
-gem 'rails_admin', '~> 1.2'
+gem 'rails_admin', '~> 1.4'
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
